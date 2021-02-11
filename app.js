@@ -37,7 +37,7 @@ const displaySongs = songs => {
 
     })
 }
-const getLyrics =async(artist,title)=>{
+const getLyrics =async (artist,title)=>{
 
     const url = `https://api.lyrics.ovh/v1/${artist}/${title}`
     const res =await fetch(url)
